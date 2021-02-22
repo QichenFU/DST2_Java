@@ -1,0 +1,5 @@
+1. Inheritence is the ability of define the behavior or implementation of one class as a superset of another class. 
+In this scenario, the secondhandvehicle class (child class) is inherited from the vehicle class (parent class). Thus, the secondhandvehicle class has all attributes and methods that the vehicle class has. It can also have its own attributes and methods that its parent class does not have. 
+2. Vehicle constructors: to set value of all attributes (RegNO, Make, yearOfManufacture, Value) for new object (a new vehicle) when creating this object. 
+SecondHandVehicle: to set the attributes of its parent class. So basically, the secondhandvehicle class can calls the superclass constructor. With "super(parameter list)" function, the superclass constructor with a matching parameter list is called. And also to set the numberofowners which is the unique attribute of the secondhandvehicle. 
+3. The value of the vehicle may change due to second-hand transaction, damage and so on. However, the vehicle's regNO, make, yearOfManufacture is fixed after the vehicle is produced. 
